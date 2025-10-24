@@ -7,6 +7,8 @@ body {
     font-family: "IM Fell Double Pica", serif;
     font-weight: 400;
     font-style: normal;
+    padding: 0;
+    margin: 0;
 }
 
 @media (min-width: 1400px) {
@@ -44,7 +46,7 @@ body {
         float: initial !important;
     }
     .header {
-        width: 100% !important;
+        width: calc(100% - 40px) !important;
         padding: 10px 20px 10px 20px !important;
     }
 }
@@ -99,7 +101,7 @@ p {
     background-color: #FAF9F6;
     width: calc(100% - 120px);
     height: 60px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0px 0px 10px 10px;
     padding: 10px 20px 10px 100px;
 }
 
