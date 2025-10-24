@@ -29,10 +29,6 @@ body {
     .right-info {
         margin-left: 16vw;
     }
-    .site-title {
-        text-align: center !important; 
-        float: initial !important;
-    }
 }
 
 @media (max-width: 800px) {
@@ -42,6 +38,14 @@ body {
     }
     .right-info {
         display: none;
+    }
+    .site-title {
+        text-align: center !important; 
+        float: initial !important;
+    }
+    .header {
+        width: 100% !important;
+        padding: 10px 20px 10px 20px !important;
     }
 }
 
